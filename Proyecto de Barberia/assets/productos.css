@@ -36,13 +36,14 @@ nav a:hover{
 
 /*Body*/
 
+
 .productos{
-    width: 990px;
+    width: 940px;
     margin: 0 auto;
     padding: 50px;
 }
 
-.productos li {
+.productos li{
     display: inline-block;
     text-align: center;
     width: 30%;
@@ -51,8 +52,9 @@ nav a:hover{
     padding: 30px 20px;
     box-sizing: border-box;
     border: 2px solid #000000;
-    border-radius: 10px 25px 40px 50px;
+    border-radius: 10px;
 }
+
 
 .productos li:hover{
     border-color: #c78c19;
@@ -77,6 +79,23 @@ nav a:hover{
     font-size: 20px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+.cabb img{
+    width: 10px;
+}
+
+/*footer*/
+
+footer{
+    text-align: center;
+    background-image: url(../img/fondo.jpg);
+    padding: 40px;
+}
+
+.Copyright{
+    color: #FFFFFF;
+    font-size: 13px;
 }
 
 
